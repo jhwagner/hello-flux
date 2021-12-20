@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: harbor.s.wish.site/wish/hello-world:dev
+        image: harbor.s.wish.site/wish/hello-world:dev # {"$imagepolicy": "flux-system:hello-world"}
 ---
 kind: Service
 apiVersion: v1
